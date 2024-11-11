@@ -1,0 +1,35 @@
+*{
+   margin: 0; 
+   padding: 0;
+   font-family: Century Gothic;          
+}
+header{
+              background-image: url(../women-empor.jpg) ;
+              height: 150vh;
+              background-size: cover;
+              background-position: center;
+}
+ul {
+              float: right;
+              list-style-type: none;
+              margin-top: 25px;
+}
+ul li{
+              display: inline-block;
+} 
+ul li a{
+              text-decoration: none;
+              color: #000;;
+              padding: 5px 20px;
+              border: 1px solid royalblue;
+              transition: 0.6s ease;
+}
+ul li a:hover{
+     background-color:#000;
+     color:red ;         
+}
+.logo img{
+              float:left;
+              width: 100px; 
+              height: auto;
+}
